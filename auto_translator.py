@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-from google_trans_new import google_translator
+import google_trans_fixed
 import argparse
 import os
 
@@ -18,14 +18,14 @@ parser = argparse.ArgumentParser()
 parser.add_argument(
     "src_file", help="File path of original strings.xml", type=str)
 parser.add_argument("target_language_code", nargs="+",
-                    help="Language Code of target language,if there are more than one, please add a space between their names")
+                    help="Language Code of target language,if there are more than one, please add space between their names")
 args = parser.parse_args()
 
 src_file = args.src_file
 target_language_code = args.target_language_code
 
 for lang in target_language_code:
-    translator = google_translator()
+    translator = google_trans_fixed.google_translator()
     tree = ET.parse(src_file)
     root = tree.getroot()
 
