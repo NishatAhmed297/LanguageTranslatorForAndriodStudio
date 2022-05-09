@@ -6,7 +6,7 @@
 
 ## ONE TIME SETUP
 1. Download and install latest [Python](https://www.python.org/downloads/) version.
-2. Open python Setup, Check the box given at the bottom of the installation window named as "Add to Path".
+2. Open python Setup, Check the box given at the bottom of the installation window named as **"Add to Path"**.
 3. Start Installation of python
 4. Now install following library just write following command in command prompt.<br/>
 	>pip install requests
@@ -17,7 +17,7 @@
 		
 ## STEPS TO TRANSLATE
 1. Open command prompt from Start menu and navigate to current working folder, for example in my case <br/>
-	>  G:\Nishat\Python Automation Scripts **OR**<br/>
+	>  G:\UserName\Python Automation Scripts **OR**<br/>
 	> Click on Address bar and write cmd and press Enter.
 2. Copy source XML file (strings.xml) in current working directory. Source file should be in English language.
 3. Write following command<br/>
