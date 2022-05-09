@@ -25,5 +25,5 @@
 4. This file requires 2 arguments. First is source xml file and Second are language codes, You can translate into multiple langugaes. Just seperate each language code with a space. Sample commands are given below<br/>
 	> English -> Urdu -----> python auto_translator.py strings.xml ur<br/>
 	> English -> Urdu, Arabic, French -----> python auto_translator.py strings.xml ur ar fr<br/>
-5. Output file will be stored in values-**"Output"** Folder.
+5. Output file will be stored in **"Output"** Folder.
 	
