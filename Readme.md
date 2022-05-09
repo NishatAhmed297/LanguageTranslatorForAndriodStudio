@@ -1,6 +1,6 @@
 # Andorid Language Helper
 ### Requirements:
-1. Python 3.9
+1. Python 3+
 
 ### How to use?
 
